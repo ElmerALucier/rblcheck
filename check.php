@@ -4,7 +4,7 @@
 
 require("rblcheck.php");
 
-$blockedList = rblcheck("1.2.3.4");
+$blockedList = rblcheck($argv[1]);
 if(count($blockedList) > 0)
 {
 	// Your IP is blocked somewhere.
