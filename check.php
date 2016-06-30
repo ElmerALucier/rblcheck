@@ -14,4 +14,5 @@ else
 {
 	echo "The IP is not blocked.";
 }
+echo PHP_EOL;
 ?>
