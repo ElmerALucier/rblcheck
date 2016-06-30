@@ -1,6 +1,5 @@
 <?php
-// Sal Sodano
-// www.salscode.com
+// mail-tester.com services
 
 require("rblcheck.php");
 
