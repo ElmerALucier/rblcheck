@@ -1,7 +1,7 @@
 <?php
 // mail-tester.com services
 
-require("rblcheck.php");
+require("rbl_lib.php");
 
 $blockedList = rblcheck($argv[1]);
 if(count($blockedList) > 0)
